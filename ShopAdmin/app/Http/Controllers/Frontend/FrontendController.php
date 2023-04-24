@@ -20,7 +20,7 @@ class FrontendController extends Controller
     public function index()
     {
         
-        $products=product::where('id_user', Auth::user()->id)->orderBy('created_at','DESC')->paginate(6);
+        $products=product::orderBy('created_at','DESC')->paginate(6);
         
         // $productsimage=product::get()->toArray();
         //  $productsimage = $productsimage;
