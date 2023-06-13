@@ -180,7 +180,7 @@
 									
 								<div class="text-area">
 									<div class="blank-arrow">
-										<label>Your Name</label>
+										<label>Comment</label>
 									</div>
 									<span>*</span>
 									<input class="levelinput" name="level" type="hidden" value="0">
